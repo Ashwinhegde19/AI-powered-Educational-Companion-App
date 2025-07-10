@@ -1,0 +1,40 @@
+{
+  "name": "ai-educational-companion",
+  "version": "1.0.0",
+  "description": "AI-powered Educational Companion App with React Native frontend and Node.js backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"pnpm run backend:dev\" \"pnpm run frontend:start\"",
+    "backend:dev": "cd backend && pnpm run dev",
+    "backend:start": "cd backend && pnpm start",
+    "backend:test": "cd backend && pnpm test",
+    "frontend:install": "cd frontend && pnpm install",
+    "frontend:start": "cd frontend && pnpm start",
+    "frontend:android": "cd frontend && pnpm run android",
+    "frontend:ios": "cd frontend && pnpm run ios",
+    "frontend:pods": "cd frontend && cd ios && pod install && cd ..",
+    "install:all": "pnpm install && cd backend && pnpm install && cd ../frontend && pnpm install",
+    "build": "cd backend && pnpm run build",
+    "test": "pnpm run backend:test"
+  },
+  "keywords": [
+    "ai",
+    "education",
+    "react-native",
+    "nodejs",
+    "gemini",
+    "qdrant",
+    "mongodb",
+    "youtube",
+    "ncert"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}

@@ -1,0 +1,199 @@
+# --- General Node/JS/React Native ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.*
+
+# Coverage
+coverage/
+*.lcov
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Parcel/Next/Gatsby/Storybook/Expo/Metro
+.cache/
+.parcel-cache
+.next
+out
+.nuxt
+dist
+public
+.out
+.storybook-out
+.expo/
+web-build/
+.metro-health-check*
+
+# Temporary folders
+.tmp/
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.history/
+*.vsix
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# MongoDB
+/data/
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+
+# Production builds
+build/
+dist/
+
+# Docker
+.dockerignore
+Dockerfile
+
+# --- React Native ---
+# Android/IntelliJ
+android/.gradle/
+android/.idea/
+android/local.properties
+android/.DS_Store
+android/build/
+android/app/build/
+android/.cxx/
+android/.externalNativeBuild/
+android/.settings/
+android/captures/
+android/.project
+android/.classpath
+android/.settings/
+android/.metadata/
+android/.recommenders/
+android/.navigation/
+android/.vscode/
+*.iml
+*.hprof
+*.keystore
+!android/app/debug.keystore
+
+# Gradle
+.gradle/
+**/build/
+!android/app/src/main/assets/
+
+# Android Studio
+captures/
+.cxx/
+.externalNativeBuild/
+.caches/
+
+# --- iOS/Xcode ---
+ios/Pods/
+ios/build/
+ios/.DS_Store
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcworkspace
+*.xcassets
+*.xcscmblueprint
+*.xcsettings
+*.xcodeproj/project.xcworkspace/
+ios/.xcodebuild.log
+
+# CocoaPods
+ios/Pods/
+
+# Expo
+.expo/
+
+# Metro
+.metro-health-check*
+
+# --- Miscellaneous ---
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# NDK
+obj/
+
+# Firebase
+ios/GoogleService-Info.plist
+android/app/google-services.json
+
+# --- End of file ---
