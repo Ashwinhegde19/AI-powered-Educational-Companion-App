@@ -11,7 +11,7 @@ An AI-powered educational companion app that integrates YouTube videos with NCER
 - **Database**: MongoDB for storing videos, channels, and NCERT concepts
 - **RESTful APIs**: Comprehensive API endpoints for all functionality
 
-### Frontend (React Native) - *Coming Soon*
+### Frontend (React Native) 
 - **Home Screen**: Random videos and channel-based video sections
 - **Video Player**: YouTube player with NCERT concept overlays
 - **Dynamic Content**: Real-time NCERT concept suggestions
