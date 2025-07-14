@@ -333,15 +333,6 @@ The React Native frontend is planned with the following screens:
 - [ ] Advanced analytics and reporting
 - [ ] WebSocket support for real-time updates
 
-## 📞 Support
-
-For questions and support:
-- Create an issue in the GitHub repository
-- Contact: [your-email@example.com]
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
